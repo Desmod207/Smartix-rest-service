@@ -1,0 +1,15 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/test_db
+#    username: postgres
+#    password: postgres
+#    driver-class-name: org.postgresql.Driver
+#    sql:
+#    init:
+#      mode: always
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:16:///sandbox?TC_DAEMON=true
+    sql:
+      init:
+        mode: always
